@@ -32,16 +32,21 @@ a{
 main{
     padding: 50px;
     background-color: whitesmoke;
-    text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 50px;
+}
+
+h2{
+    text-align: center;
 }
 
 .Intro{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 span{
@@ -68,6 +73,12 @@ span{
     border-radius: 50%;
     background-color: skyblue;
     overflow: hidden;
+    box-shadow: 5px 5px 5px 0px rgb(170, 159, 159);
+}
+
+#About{
+    width: 70%;
+    text-align: center;
 }
 
 img{
@@ -87,12 +98,13 @@ img{
     display: flex;
     justify-content: center;
     gap: 10px;
-
+    
 }
 .button{
     border: 1px solid black;
     border-radius: 8px;
     padding: 20px;
+    box-shadow: 5px 5px 5px 0px rgb(170, 159, 159);
 }
 
 #Projects{
@@ -104,13 +116,30 @@ img{
 
 .projects{
     width: 300px;
+    box-shadow: 5px 5px 5px 0px rgb(170, 159, 159);
 }
 
 button{
+    width: 100%;
     color: white;
     background-color: blue;
     padding: 10px;
     border-radius: 5px;
+}
+
+
+input{
+    height: 40px;
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+textarea{
+    height:80px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0px;
 }
 
 footer{
